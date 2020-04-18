@@ -1,0 +1,4 @@
+*.csv
+env
+.vscode
+*.db
