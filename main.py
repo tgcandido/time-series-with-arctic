@@ -14,4 +14,4 @@ library.write('Trades', df)
 
 new_ df = library.read('Trades').data
 
-print(new_df.head())
+range_df = library.read('Trades', date_range=DateRange('2020-01-01', '2020-01-02')).data
